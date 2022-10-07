@@ -44,6 +44,7 @@ margin: 0 auto;
 .header-page{
   padding-top: 32px;
   padding-bottom: 32px;
+  border: 1px solid #ECECEC;
 }
 
 .logo {
