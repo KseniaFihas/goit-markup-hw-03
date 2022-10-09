@@ -42,8 +42,8 @@ img {
 }
 
 .header-page {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   border: 1px solid #ececec;
   display: flex;
   align-items: center;
@@ -53,7 +53,7 @@ img {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.92;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--button-color);
   text-decoration: none;
@@ -188,8 +188,8 @@ img {
   text-align: center;
 }
 .description {
-  font-size: 16px;
-  line-height: 1.19;
+  font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -204,7 +204,7 @@ img {
 }
 .type-button {
   text-decoration: none;
-  background-color: #f5f5f5;
+  background-color: #fff;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -219,7 +219,6 @@ img {
   text-align: center;
 }
 .hero {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 .link-img {
@@ -251,6 +250,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--text-color);
   font-family: Roboto, sans-serif;
+  padding: 6px;
 }
 .button-filter:hover,
 .button-filter:focus {
@@ -274,6 +274,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--text-color);
   margin-bottom: 10px;
+  text-align: center;
 }
 .title-description {
   font-weight: 700;
@@ -281,6 +282,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--text-color);
+  text-align: center;
   margin-bottom: 4px;
 }
 .sub-description {
@@ -288,6 +290,7 @@ img {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: #757575;
+  text-align: center;
 }
 .footer {
   padding-top: 60px;
@@ -325,4 +328,30 @@ img {
 }
 .main-nav {
   display: flex;
+}
+.description-name {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.title-profession {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.logo-footer {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--button-color);
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.description-image {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
